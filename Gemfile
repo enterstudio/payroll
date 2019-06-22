@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'airbrake'          # robust exception tracking
-gem 'bootstrap-sass'    # SASS port of  Bootstrap 3
+gem 'bootstrap-sass'    , '>= 3.4.0' # SASS port of  Bootstrap 3
 gem 'devise'            # Flexible authentication solution
 gem 'devise_invitable'  # Invitation strategy for devise
 gem 'google_visualr'    # Google Visualization API
@@ -20,7 +20,7 @@ gem 'sass-rails'        # Sass adapter
 gem 'uglifier'          # minifies JavaScript, wraps UglifyJS
 
 gem 'jbuilder'          # Create JSON structures
-gem 'jquery-rails'      # jQuery and jQuery-ujs
+gem 'jquery-rails'      , '>= 4.3.4' # jQuery and jQuery-ujs
 gem 'turbolinks'        # Faster link following
 
 gem 'rake'              # Make-like program
