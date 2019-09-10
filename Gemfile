@@ -4,8 +4,8 @@ ruby '2.3.1'
 
 gem 'airbrake'          # robust exception tracking
 gem 'bootstrap-sass'    # SASS port of  Bootstrap 3
-gem 'devise'            # Flexible authentication solution
-gem 'devise_invitable'  # Invitation strategy for devise
+gem 'devise'            , '>= 4.7.1' # Flexible authentication solution
+gem 'devise_invitable'  , '>= 1.7.0' # Invitation strategy for devise
 gem 'google_visualr'    # Google Visualization API
 gem 'haml'              # HTML Abstraction Markup Language
 gem 'haml-rails'        # HAML generators
