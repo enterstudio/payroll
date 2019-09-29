@@ -44,7 +44,7 @@ group :test do
   gem 'database_cleaner'                # Strategies for cleaning databases
   gem 'factory_girl_rails'              # Setup Ruby objects as test data
   gem 'launchy'
-  gem 'selenium-webdriver'              # Automated tests of websites
+  gem 'selenium-webdriver'              , '>= 3.0.5' # Automated tests of websites
   gem 'shoulda-matchers'                # Collection of testing matchers
 end
 
