@@ -10,7 +10,7 @@ gem 'google_visualr'    # Google Visualization API
 gem 'haml'              # HTML Abstraction Markup Language
 gem 'haml-rails'        # HAML generators
 gem 'immigrant'         # Foreign key migration generator
-gem 'puma'              # Ruby web server built for concurrency
+gem 'puma'              , '>= 3.12.2' # Ruby web server built for concurrency
 gem 'smarter_csv'       # importing csv files as array(s) of hashes
 
 gem 'coffee-rails'      # CoffeeScript adapter
