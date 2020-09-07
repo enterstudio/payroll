@@ -40,7 +40,7 @@ end
 
 group :test do
   gem 'capybara'                        # Integration testing tool
-  gem 'cucumber-rails', require: false  # Automated acceptance tests
+  gem 'cucumber-rails', '>= 2.1.0', require: false # Automated acceptance tests
   gem 'database_cleaner'                # Strategies for cleaning databases
   gem 'factory_girl_rails'              # Setup Ruby objects as test data
   gem 'launchy'
