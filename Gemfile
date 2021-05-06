@@ -53,5 +53,5 @@ group :production do
 end
 
 group :doc do
-  gem 'sdoc' # rdoc generator
+  gem 'sdoc' , '>= 1.0.0' # rdoc generator
 end
