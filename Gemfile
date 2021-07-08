@@ -39,11 +39,11 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara'                        # Integration testing tool
-  gem 'cucumber-rails', require: false  # Automated acceptance tests
+  gem 'capybara'                        , '>= 2.11.0' # Integration testing tool
+  gem 'cucumber-rails', '>= 1.4.5', require: false # Automated acceptance tests
   gem 'database_cleaner'                # Strategies for cleaning databases
   gem 'factory_girl_rails'              # Setup Ruby objects as test data
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'selenium-webdriver'              # Automated tests of websites
   gem 'shoulda-matchers'                # Collection of testing matchers
 end
