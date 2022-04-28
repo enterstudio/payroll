@@ -4,7 +4,7 @@ ruby '2.3.1'
 
 gem 'airbrake'          # robust exception tracking
 gem 'bootstrap-sass'    # SASS port of  Bootstrap 3
-gem 'devise'            # Flexible authentication solution
+gem 'devise'            , '>= 4.4.2' # Flexible authentication solution
 gem 'devise_invitable'  # Invitation strategy for devise
 gem 'google_visualr'    # Google Visualization API
 gem 'haml'              # HTML Abstraction Markup Language
@@ -13,9 +13,9 @@ gem 'immigrant'         # Foreign key migration generator
 gem 'puma'              # Ruby web server built for concurrency
 gem 'smarter_csv'       # importing csv files as array(s) of hashes
 
-gem 'coffee-rails'      # CoffeeScript adapter
+gem 'coffee-rails'      , '>= 4.2.2' # CoffeeScript adapter
 gem 'pg'                # PostgreSQL
-gem 'rails'             # Ruby on Rails
+gem 'rails'             , '>= 5.2.7.1' # Ruby on Rails
 gem 'sass-rails'        # Sass adapter
 gem 'uglifier'          # minifies JavaScript, wraps UglifyJS
 
@@ -40,7 +40,7 @@ end
 
 group :test do
   gem 'capybara'                        # Integration testing tool
-  gem 'cucumber-rails', require: false  # Automated acceptance tests
+  gem 'cucumber-rails', '>= 1.6.0', require: false # Automated acceptance tests
   gem 'database_cleaner'                # Strategies for cleaning databases
   gem 'factory_girl_rails'              # Setup Ruby objects as test data
   gem 'launchy'
