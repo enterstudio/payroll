@@ -15,7 +15,7 @@ gem 'smarter_csv'       # importing csv files as array(s) of hashes
 
 gem 'coffee-rails'      # CoffeeScript adapter
 gem 'pg'                # PostgreSQL
-gem 'rails'             # Ruby on Rails
+gem 'rails'             , '>= 5.2.8.1' # Ruby on Rails
 gem 'sass-rails'        # Sass adapter
 gem 'uglifier'          # minifies JavaScript, wraps UglifyJS
 
