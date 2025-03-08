@@ -15,8 +15,8 @@ gem 'smarter_csv'       # importing csv files as array(s) of hashes
 
 gem 'coffee-rails'      # CoffeeScript adapter
 gem 'pg'                # PostgreSQL
-gem 'rails'             # Ruby on Rails
-gem 'sass-rails'        # Sass adapter
+gem 'rails'             , '>= 7.0.0' # Ruby on Rails
+gem 'sass-rails'        , '>= 6.0.0' # Sass adapter
 gem 'uglifier'          # minifies JavaScript, wraps UglifyJS
 
 gem 'jbuilder'          # Create JSON structures
@@ -40,7 +40,7 @@ end
 
 group :test do
   gem 'capybara'                        # Integration testing tool
-  gem 'cucumber-rails', require: false  # Automated acceptance tests
+  gem 'cucumber-rails', '>= 2.1.0', require: false # Automated acceptance tests
   gem 'database_cleaner'                # Strategies for cleaning databases
   gem 'factory_girl_rails'              # Setup Ruby objects as test data
   gem 'launchy'
