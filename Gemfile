@@ -9,13 +9,13 @@ gem 'devise_invitable'  # Invitation strategy for devise
 gem 'google_visualr'    # Google Visualization API
 gem 'haml'              # HTML Abstraction Markup Language
 gem 'haml-rails'        # HAML generators
-gem 'immigrant'         # Foreign key migration generator
+gem 'immigrant'         , '>= 0.3.6' # Foreign key migration generator
 gem 'puma'              # Ruby web server built for concurrency
 gem 'smarter_csv'       # importing csv files as array(s) of hashes
 
 gem 'coffee-rails'      # CoffeeScript adapter
 gem 'pg'                # PostgreSQL
-gem 'rails'             # Ruby on Rails
+gem 'rails'             , '>= 7.1.5.2' # Ruby on Rails
 gem 'sass-rails'        # Sass adapter
 gem 'uglifier'          # minifies JavaScript, wraps UglifyJS
 
@@ -27,7 +27,7 @@ gem 'rake'              # Make-like program
 gem 'rubocop', require: false # Automatic Ruby code style checking
 
 group :development do
-  gem 'rails-erd'       # Generate an entity-relationship diagram
+  gem 'rails-erd'       , '>= 1.5.1' # Generate an entity-relationship diagram
   gem 'spring'          # Preloads your application
 end
 
